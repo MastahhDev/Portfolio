@@ -9,22 +9,17 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
 }
 
-#contenido-borde{
+#texto-aka{
     font-family: "IBM Plex Mono", monospace;
-    font-weight: 700;
     font-size: 25px;
     display: inline-block;
-    justify-content: flex-start;
-    align-items: center;
     line-height: 0.5;
     margin-left: 20px;
     background: linear-gradient(to right, #f9d8b6, #ea9641);
     -webkit-background-clip: text;  
     background-clip: text;
-    -webkit-text-fill-color: transparent;
     color: transparent;
     background-size: 100%;
 }
@@ -32,24 +27,18 @@ body{
 #presentacion{
     background-color: hsl(240, 16%, 21%);
     display: flex;
-    justify-content: left; /* ajusta si se posiciona en la izquierda o derecha del div */
-    align-items: center; /* ajusta si se posiciona arriba o abajo del div */
-    max-width: 500px; /* ajusta la anchura max del div */
-    max-height: 110px; /* ajusta la altura max del div */
-    margin: 120px auto; /* ajusta la distancia del div del lugar de arriba */
-    border-radius: 30px; /* redondea esquinas */
-}
-
-#info-perfil{
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    max-height: 110px;
+    margin: 120px auto;
+    border-radius: 30px;
 }
 
 .perfil{
-    width: 85px; /* ajusta los px de la imagen */
+    width: 85px; 
     height: auto; 
-    border-radius:50%; /* redondea la imagen */
-    border: 4px solid hsl(240, 16%, 28%); /* le da un borde a la imagen*/
+    border-radius:50%; 
+    border: 4px solid hsl(240, 16%, 28%);
     margin: 30px;
 }
 
@@ -67,5 +56,4 @@ body{
     font-size: 14px;
     color: antiquewhite;    
     margin-top: 2px;
-    line-height: 1.5;
 }
