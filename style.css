@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(240, 16%, 18%);
+}
+
+#borde-superior{
+    width: 100%;
+    height: 60px;
+    background-color: hsl(240, 16%, 21%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#contenido-borde{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 25px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0.5;
+    margin-left: 20px;
+    background: linear-gradient(to right, #f9d8b6, #ea9641);
+    -webkit-background-clip: text;  
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-size: 100%;
+}
+
+#presentacion{
+    background-color: hsl(240, 16%, 21%);
+    display: flex;
+    justify-content: left; /* ajusta si se posiciona en la izquierda o derecha del div */
+    align-items: center; /* ajusta si se posiciona arriba o abajo del div */
+    max-width: 500px; /* ajusta la anchura max del div */
+    max-height: 110px; /* ajusta la altura max del div */
+    margin: 120px auto; /* ajusta la distancia del div del lugar de arriba */
+    border-radius: 30px; /* redondea esquinas */
+}
+
+#info-perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil{
+    width: 85px; /* ajusta los px de la imagen */
+    height: auto; 
+    border-radius:50%; /* redondea la imagen */
+    border: 4px solid hsl(240, 16%, 28%); /* le da un borde a la imagen*/
+    margin: 30px;
+}
+
+.nombre{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 0;
+}
+
+.arroba{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: antiquewhite;    
+    margin-top: 2px;
+    line-height: 1.5;
+}
