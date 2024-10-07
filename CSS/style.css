@@ -33,6 +33,25 @@ body{
     box-sizing: border-box;
 }
 
+#tecnologias-contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 5px 5px;
+}
+
+#tecnologias-1, #tecnologias-2{
+    background-color: hsl(240, 16%, 21%);
+    border-radius: 30px;
+    width: 200px;
+    height: 235px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 /* Botones */
 #boton-redes{
     display: flex;
@@ -68,6 +87,10 @@ body{
     border-radius:50%; 
     border: 4px solid hsl(240, 16%, 28%);
     margin: 30px;
+}
+
+.t-html, .t-css, .t-js, .t-java, .t-python, .t-vscode, .t-git, .t-github{
+    width: 60px;
 }
 
 /* Textos */
@@ -108,12 +131,36 @@ body{
 
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: white;
     font-weight: 700;
+    color: white;
 }
 
 .sobre-texto{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: antiquewhite;
+}
+
+.tecnologias-titulo{
+    display: flex;
+    margin: 20px auto;
+    max-width: 500px;
+    margin-top: 50px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.tecnologias-aprendiendo, .tecnologias-herramientas{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    background: linear-gradient(to right, #b463dd, #b32cd1);
+    -webkit-background-clip: text;  
+    background-clip: text;
+    color: transparent;
+    background-size: 100%;
 }
