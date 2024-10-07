@@ -35,11 +35,9 @@ body{
 
 #tecnologias-contenedor{
     display: flex;
-    justify-content: center;
-    gap: 15px;
-    max-width: 100%;
-    margin: 20px auto;
-    padding: 5px 5px;
+    max-width: 500px;
+    max-height: auto;
+    margin: auto;
 }
 
 #tecnologias-1, #tecnologias-2{
@@ -47,9 +45,11 @@ body{
     border-radius: 30px;
     width: 200px;
     height: 235px;
-    margin: auto;
-    box-sizing: border-box;
     text-align: center;
+}
+
+#tecnologias-1{
+    margin-right: 20%;
 }
 
 /* Botones */
